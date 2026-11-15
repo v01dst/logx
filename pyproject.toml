@@ -1,0 +1,14 @@
+[project]
+name = "logx"
+version = "0.1.0"
+description = "Analyze log files from your terminal. Tail, filter by level, search, count. Zero dependencies, pure Python stdlib."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+authors = [{ name = "Mahmoud Ahmed" }]
+
+[project.scripts]
+logx = "logx:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
